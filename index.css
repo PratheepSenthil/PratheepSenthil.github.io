@@ -1,0 +1,72 @@
+.navimg{
+	border-radius: 250px  
+}
+
+.main{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 300px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    /*z-index: 1;  Stay on top */
+    /*top: 0;  Stay at the top */
+    left: 0;
+    background-color: #09093B; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 30px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav>.menu:hover {
+    color: #f1f1f1;
+    background-color: black;
+}
+
+.mainimg{
+	width:1536px;
+	height:525px;
+	position: relative;
+	text-align: center;
+	color:white;
+}
+
+.topleft{
+	position: absolute;
+	top:12px;
+	left:350px;
+	color: white;
+
+}
+
+/* Page content */
+/*.main {
+  margin-left: 200px;  Same as the width of the sidenav 
+}*/
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 320px;
+	}
+
+.text p{
+
+	width: 30%;
+	border: solid grey;
+
+}
